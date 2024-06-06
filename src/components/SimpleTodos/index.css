@@ -1,0 +1,35 @@
+/* Write your CSS here */
+
+* {
+  font-family: 'Roboto';
+  box-sizing: border-box;
+}
+
+.app-container {
+  background-color: #ffc2a0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  max-width: 1140px;
+}
+
+.heading {
+  font-size: 32px;
+  font-weight: 700;
+  color: #ff8542;
+}
+
+.todo-list-container {
+  list-style: none;
+  width: 600px;
+}
